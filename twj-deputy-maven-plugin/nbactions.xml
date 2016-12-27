@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-Debug Specific Test POM</actionName>
+            <displayName>Debug Specific Test POM</displayName>
+            <goals>
+                <goal>org.tawja.maven.plugins:twj-discovery-maven-plugin:1.0.0-SNAPSHOT:resolve</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-Verify Dependencies Versions</actionName>
+            <displayName>Verify Dependencies Versions</displayName>
+            <goals>
+                <goal>dependency-versions-check:check</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-Site</actionName>
+            <displayName>Site</displayName>
+            <goals>
+                <goal>site</goal>
+            </goals>
+        </action>
+    </actions>
